@@ -4,6 +4,13 @@
 
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
+import { createHash } from "node:crypto";
+
+// Short, stable id for sources whose natural identifier (a full URL, in
+// Himalayas' case) is too long to safely appear in a filesystem path.
+function shortHash(str) {
+  return createHash("sha1").update(str).digest("hex").slice(0, 10);
+}
 
 const UA = "Mozilla/5.0 (compatible; TrabajoRemotoBot/1.0; +https://example.com)";
 
@@ -15,6 +22,15 @@ function slugify(str) {
     .replace(/[̀-ͯ]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
+}
+
+// Keeps generated paths well under filesystem limits (some job titles run
+// to 150+ chars) while keeping the id suffix that guarantees uniqueness.
+function jobSlug(title, company, id) {
+  const titlePart = slugify(title).slice(0, 50).replace(/-+$/, "");
+  const companyPart = slugify(company).slice(0, 20).replace(/-+$/, "");
+  const idPart = slugify(id).slice(0, 30).replace(/-+$/, "");
+  return `${titlePart}-${companyPart}-${idPart}`;
 }
 
 function stripHtml(html = "") {
@@ -111,7 +127,7 @@ async function fetchHimalayas() {
     if (!res.ok) throw new Error(`Himalayas HTTP ${res.status}`);
     const data = await res.json();
     return (data.jobs || []).map((j) => ({
-      id: `himalayas-${j.guid || slugify(j.title + j.companyName)}`,
+      id: `himalayas-${shortHash(j.guid || j.title + j.companyName)}`,
       source: "Himalayas",
       sourceUrl: "https://himalayas.app",
       title: j.title,
@@ -195,7 +211,7 @@ async function main() {
     .map((j) => ({
       featured: false,
       ...j,
-      slug: slugify(`${j.title}-${j.company}-${j.id}`),
+      slug: jobSlug(j.title, j.company, j.id),
       category: categorize(j),
     }));
 
