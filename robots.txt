@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://donelson07.github.io/moneyonline/sitemap.xml
