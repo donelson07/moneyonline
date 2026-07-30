@@ -70,9 +70,13 @@ export default function RootLayout({
               <a href="https://jobicy.com" className="underline hover:text-blue-600">
                 Jobicy
               </a>{" "}
-              y{" "}
+              ,{" "}
               <a href="https://himalayas.app" className="underline hover:text-blue-600">
                 Himalayas
+              </a>{" "}
+              y{" "}
+              <a href="https://arbeitnow.com" className="underline hover:text-blue-600">
+                Arbeitnow
               </a>
               . Todas las solicitudes se procesan en el sitio original de cada
               oferta.

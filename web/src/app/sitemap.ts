@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { CATEGORIES, getAllJobs } from "@/lib/jobs";
+import { CATEGORIES, COUNTRIES, getAllJobs } from "@/lib/jobs";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://trabajoremoto.es";
 
@@ -13,6 +13,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE_URL}/categoria/${c.slug}`,
       changeFrequency: "hourly" as const,
       priority: 0.8,
+    })),
+    ...COUNTRIES.map((c) => ({
+      url: `${BASE_URL}/pais/${c.slug}`,
+      changeFrequency: "hourly" as const,
+      priority: 0.7,
     })),
     ...jobs.map((j) => ({
       url: `${BASE_URL}/empleos/${j.slug}`,

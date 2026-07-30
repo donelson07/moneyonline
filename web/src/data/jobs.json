@@ -1,7 +1,118 @@
 {
-  "updatedAt": "2026-07-30T14:21:01.403Z",
-  "count": 220,
+  "updatedAt": "2026-07-30T14:47:10.857Z",
+  "count": 226,
   "jobs": [
+    {
+      "featured": false,
+      "id": "arbeitnow-senior-e-commerce-marketer-meta-google-funnels-ki-remote-cologne-281895",
+      "source": "Arbeitnow",
+      "sourceUrl": "https://arbeitnow.com",
+      "title": "Senior E-Commerce Marketer (Meta, Google, Funnels, KI) | Remote",
+      "company": "Berend Heins GmbH",
+      "tags": [
+        "Remote",
+        "Online Marketing"
+      ],
+      "location": "Cologne",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/berend-heins-gmbh/senior-e-commerce-marketer-meta-google-funnels-ki-remote-cologne-281895",
+      "description": "Wir beraten seit 2022 ambitionierte E-Commerce-Brands beim profitablen Skalieren. Über 500 begleitete Marken, mehr als 40 Mio. € verwaltetes Werbebudget. Jetzt bauen wir ein zweites Standbein: Statt nur zu beraten, übernehmen wir für ausgewählte Kunden die operative Umsetzung komplett. Done-for-you, KI-gestützt, mit klaren Prozessen. Dafür suchen wir die Person, die das ownt und dabei mehr baut als nur Kunden-Accounts: Du überführst unser Beratungswissen aus 500+ Projekten in KI-basierte Workflows und entwickelst die Standards, mit denen wir die nächsten Jahre arbeiten. Was du baust, wird nich",
+      "postedAt": "2026-07-30T13:30:37.000Z",
+      "slug": "senior-e-commerce-marketer-meta-google-funnels-ki-remote-berend-heins-gmbh-arbeitnow-senior-e-commerce-marketer-meta-google-funnels-ki-remote-cologne-281895",
+      "category": "marketing"
+    },
+    {
+      "featured": false,
+      "id": "arbeitnow-senior-seo-geo-manager-100-remote-munich-308359",
+      "source": "Arbeitnow",
+      "sourceUrl": "https://arbeitnow.com",
+      "title": "(Senior) SEO/GEO Manager (m/w/d) - 100% Remote",
+      "company": "WOLF OF SEO FZ LLC",
+      "tags": [
+        "Remote",
+        "Online Marketing",
+        "berufserfahren"
+      ],
+      "location": "Munich",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/wolf-of-seo-fz-llc/senior-seo-geo-manager-100-remote-munich-308359",
+      "description": "Wir suchen einen neuen WOLF OF SEO! Wir sind auf der Suche nach einem SEO-Manager, um dem schnellen Wachstum unserer Branche gerecht werden zu können. Als SEO-Manager bist du die zentrale Schnittstelle zwischen unserem Team und dem Kunden. Du sorgst dafür, dass unsere Kunden aus verschiedensten Branchen in die Top-3 klettern, Leads &#x26; Sales generieren und mit dir die Korken knallen lassen wollen. Unbedingt mitbringen solltest Du Zuverlässigkeit, Kommunikationsfährigkeit und den Ehrgeiz mit uns wachsen und etwas bewegen zu wollen. Aufgaben Deine Aufgaben: Du entwickelst, planst und implemen",
+      "postedAt": "2026-07-30T13:01:03.000Z",
+      "slug": "senior-seo-geo-manager-m-w-d-100-remote-wolf-of-seo-fz-llc-arbeitnow-senior-seo-geo-manager-100-remote-munich-308359",
+      "category": "marketing"
+    },
+    {
+      "featured": false,
+      "id": "arbeitnow-head-of-product-engineering-berlin-247291",
+      "source": "Arbeitnow",
+      "sourceUrl": "https://arbeitnow.com",
+      "title": "Head of Product & Engineering (m/w/d)",
+      "company": "CKM Group",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "berufserfahren"
+      ],
+      "location": "Berlin",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/ckm-group/head-of-product-engineering-berlin-247291",
+      "description": "Intro Die bündelt Expertise aus verschiedenen Bereichen, um Fortschritt und Innovation in der Gesundheitsversorgung voranzutreiben. Unser Zusammenschluss aus Klinik, Labor, telemedizinischem Service und IT-Unternehmen steht für die Entwicklung moderner und effektiver Lösungen im Gesundheitswesen. Unser Ziel ist es, durch präventive Dienstleistungsmedizin, eHealth und Public Health eine führende und wegweisende Rolle im Gesundheitssystem von morgen einzunehmen. Dabei setzen wir auf smarte Logistik, Digitalisierung, Diagnostik und individuelle Prävention. Wir denken Gesundheitsversorgung und Dia",
+      "postedAt": "2026-07-30T12:30:52.000Z",
+      "slug": "head-of-product-engineering-m-w-d-ckm-group-arbeitnow-head-of-product-engineering-berlin-247291",
+      "category": "desarrollo"
+    },
+    {
+      "featured": false,
+      "id": "arbeitnow-tech-recruiter-freelance-100-remote-eu-wide-munich-20100",
+      "source": "Arbeitnow",
+      "sourceUrl": "https://arbeitnow.com",
+      "title": "Tech Recruiter (m/f/d) | Freelance | 100% Remote (EU-wide)",
+      "company": "Hugo Schenk UG (haftungsbeschränkt)",
+      "tags": [
+        "Remote",
+        "Recruitment and Selection",
+        "Freelance"
+      ],
+      "location": "Munich",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/hugo-schenk-ug-haftungsbeschrankt/tech-recruiter-freelance-100-remote-eu-wide-munich-20100",
+      "description": "I believe that great recruiting is about much more than filling vacancies. It's about becoming a trusted recruiting partner , helping companies build strong teams, improve their hiring processes and make better hiring decisions. Since 2021, I have been, with my company Hugo Schenk UG (haftungsbeschränkt) , building long-term partnerships with clients ranging from innovative start-ups and growing SMEs to established international businesses . These companies operate across a variety of sectors, including software and digital solutions, industrial technology, electronics manufacturing, e-mobilit",
+      "postedAt": "2026-07-30T11:30:25.000Z",
+      "slug": "tech-recruiter-m-f-d-freelance-100-remote-eu-wide-hugo-schenk-ug-haftungsbeschrankt-arbeitnow-tech-recruiter-freelance-100-remote-eu-wide-munich-20100",
+      "category": "diseno"
+    },
+    {
+      "featured": false,
+      "id": "arbeitnow-prozessingenieur-im-vertrieb-dosier-und-wasseraufbereitungstechnik-berlin-57264",
+      "source": "Arbeitnow",
+      "sourceUrl": "https://arbeitnow.com",
+      "title": "Prozessingenieur im Vertrieb - Dosier- und Wasseraufbereitungstechnik (m/w/d)",
+      "company": "Dr. Herbert Executive Consultants",
+      "tags": [
+        "Remote",
+        "Sales Engineer"
+      ],
+      "location": "Berlin",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/dr-herbert-executive-consultants/prozessingenieur-im-vertrieb-dosier-und-wasseraufbereitungstechnik-berlin-57264",
+      "description": "Süddeutschland / Österreich / Schweiz - Homeoffice und Außendienst Für eine international erfolgreiche Unternehmensgruppe aus Süddeutschland suchen wir einen Prozessingenieur/Verfahrensingenieur (m/w/d), der den Geschäftsbereich Desinfektionstechnik und Desinfektionsanlagen im DACH-Raum aufbaut und weiterentwickelt. Das Unternehmen entwickelt und produziert individuelle Dosier- und Wasseraufbereitungsanlagen für industrielle, kommunale und verfahrenstechnische Anwendungen weltweit. Die Position verbindet verfahrenstechnische Beratung, kundenspezifische Lösungsentwicklung und Vertrieb. Ein Umzu",
+      "postedAt": "2026-07-30T10:31:02.000Z",
+      "slug": "prozessingenieur-im-vertrieb-dosier-und-wasseraufbereitungstechnik-m-w-d-dr-herbert-executive-consultants-arbeitnow-prozessingenieur-im-vertrieb-dosier-und-wasseraufbereitungstechnik-berlin-57264",
+      "category": "desarrollo"
+    },
+    {
+      "featured": false,
+      "id": "arbeitnow-senior-software-architekt-python-developer-bzw-programmierer-mulheim-420887",
+      "source": "Arbeitnow",
+      "sourceUrl": "https://arbeitnow.com",
+      "title": "Senior Software Architekt & Python Developer bzw. Programmierer (m/w/d)",
+      "company": "U-Glow GmbH",
+      "tags": [
+        "Remote",
+        "IT"
+      ],
+      "location": "Mülheim",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/u-glow-gmbh/senior-software-architekt-python-developer-bzw-programmierer-mulheim-420887",
+      "description": "Du bist ein absoluter Experte der Softwareentwicklung und Python-Programmierung? Dann sollten wir uns kennenlernen! Bei U-Glow bzw. prelytics® entwickeln wir benutzerfreundliche Softwarelösungen, die auf fortschrittlichen Technologien basieren, um komplexe Aufgaben zu vereinfachen und Ihnen wertvolle Einblicke zu bieten. Dazu nutzen wir unter anderem generative Künstliche Intelligenz (KI) und Large Language Models (LLMs). Diese Technologien ermöglichen es, große Mengen an Texten und Daten schnell zu verarbeiten und dabei präzise Ergebnisse zu liefern. Aufgaben Deine Aufgaben Entwicklung und Op",
+      "postedAt": "2026-07-30T09:30:38.000Z",
+      "slug": "senior-software-architekt-python-developer-bzw-programmierer-m-w-d-u-glow-gmbh-arbeitnow-senior-software-architekt-python-developer-bzw-programmierer-mulheim-420887",
+      "category": "desarrollo"
+    },
     {
       "featured": false,
       "id": "jobicy-149455",
@@ -379,6 +490,27 @@
       "postedAt": "2026-07-29T14:30:07+00:00",
       "slug": "territory-manager-lake-tahoe-ca-colgate-palmolive-jobicy-143040",
       "category": "ventas"
+    },
+    {
+      "featured": false,
+      "id": "remoteok-1135620",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com",
+      "title": "SSG NEP",
+      "company": "EY",
+      "tags": [
+        "customer support",
+        "non tech",
+        "exec",
+        "consulting",
+        "golang"
+      ],
+      "location": "London, ",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-ssg-nep-ey-1135620",
+      "description": "At EY, weâre all in to shape your future with confidence. Weâll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. N/A EY | Building a better working world EY is building a better working world by creating new value for clients, people, society and the planet, while building trust in capital markets. Enabled by data, AI and advanced technology, EY teams help clients shape the future with confidence and develop answers for the most pressing issues of today and tomorrow. EY te",
+      "postedAt": "2026-07-29T14:26:14+00:00",
+      "slug": "ssg-nep-ey-remoteok-1135620",
+      "category": "soporte"
     },
     {
       "featured": false,
@@ -3920,50 +4052,6 @@
       "postedAt": "2026-07-27T14:45:21+00:00",
       "slug": "join-us-monobrow-remoteok-1135503",
       "category": "otros"
-    },
-    {
-      "featured": false,
-      "id": "remoteok-1135531",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com",
-      "title": "VP Revenue",
-      "company": "Mongoose",
-      "tags": [
-        "education",
-        "medical",
-        "full time",
-        "non tech",
-        "admin",
-        "ops",
-        "web3",
-        "crypto",
-        "sys admin",
-        "vfx",
-        "designer",
-        "customer support",
-        "marketing",
-        "dev",
-        "web dev",
-        "finance",
-        "mobile",
-        "content writing",
-        "digital nomad",
-        "exec",
-        "controller",
-        "accounting",
-        "part time",
-        "teaching",
-        "travel",
-        "math",
-        "senior",
-        "golang"
-      ],
-      "location": "New York, New York, New York, United States",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-vp-revenue-mongoose-1135531",
-      "description": "Mongoose is the leading AI Engagement Platform in higher education. Colleges and universities use us to increase enrollment, retention, and fundraising &amp;mdash; without adding staff. We have the product and the customers. What we don't have yet is a revenue engine to match. That's this role. As VP of Revenue, you own it end to end &amp;mdash; new business, client success, account management, and, most importantly, the system that ties them together. Your job is to make it simple and run it with discipline. What You'll Do Own all of revenue. The whole revenue org reports to you &amp;mdash; o",
-      "postedAt": "2026-07-27T14:37:38+00:00",
-      "slug": "vp-revenue-mongoose-remoteok-1135531",
-      "category": "desarrollo"
     },
     {
       "featured": false,

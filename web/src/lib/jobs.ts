@@ -48,3 +48,48 @@ export function getJobBySlug(slug: string): Job | undefined {
 export function getJobsByCategory(categorySlug: string): Job[] {
   return getAllJobs().filter((j) => j.category === categorySlug);
 }
+
+export type Country = { slug: string; label: string; timezoneNote: string };
+
+export const COUNTRIES: Country[] = [
+  {
+    slug: "mexico",
+    label: "México",
+    timezoneNote:
+      "México comparte franja horaria con buena parte de EE. UU., lo que facilita coordinar reuniones en vivo con equipos de América del Norte.",
+  },
+  {
+    slug: "colombia",
+    label: "Colombia",
+    timezoneNote:
+      "Colombia opera en UTC-5 todo el año, muy cercano al horario del este de EE. UU., ideal para equipos remotos con clientes norteamericanos.",
+  },
+  {
+    slug: "argentina",
+    label: "Argentina",
+    timezoneNote:
+      "Argentina (UTC-3) se solapa bien con Europa por la mañana y con la costa este de EE. UU. por la tarde, útil para roles con equipos en ambos continentes.",
+  },
+  {
+    slug: "chile",
+    label: "Chile",
+    timezoneNote:
+      "Chile mantiene un huso horario similar al este de Sudamérica, con buena superposición horaria para trabajar con clientes de EE. UU. y Europa.",
+  },
+  {
+    slug: "peru",
+    label: "Perú",
+    timezoneNote:
+      "Perú (UTC-5) coincide con el horario del este de EE. UU. gran parte del año, cómodo para reuniones sincrónicas con empresas norteamericanas.",
+  },
+  {
+    slug: "espana",
+    label: "España",
+    timezoneNote:
+      "España comparte la mayor parte de la jornada laboral con el resto de Europa, lo que la hace atractiva para empresas remotas europeas.",
+  },
+];
+
+export function countryLabel(slug: string): string {
+  return COUNTRIES.find((c) => c.slug === slug)?.label ?? slug;
+}

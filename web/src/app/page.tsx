@@ -1,7 +1,7 @@
 import Link from "next/link";
 import JobCard from "@/components/JobCard";
 import AdSlot from "@/components/AdSlot";
-import { CATEGORIES, getAllJobs, getJobsUpdatedAt } from "@/lib/jobs";
+import { CATEGORIES, COUNTRIES, getAllJobs, getJobsUpdatedAt } from "@/lib/jobs";
 
 export const revalidate = 3600;
 
@@ -34,6 +34,18 @@ export default function Home() {
             className="text-sm border border-neutral-200 rounded-full px-3 py-1 hover:border-blue-400 hover:text-blue-600"
           >
             {c.label}
+          </Link>
+        ))}
+      </section>
+
+      <section className="mb-8 flex flex-wrap gap-2">
+        {COUNTRIES.map((c) => (
+          <Link
+            key={c.slug}
+            href={`/pais/${c.slug}`}
+            className="text-sm text-neutral-500 hover:text-blue-600"
+          >
+            Trabajo remoto en {c.label}
           </Link>
         ))}
       </section>

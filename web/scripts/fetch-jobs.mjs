@@ -74,6 +74,35 @@ async function fetchJobicy() {
   }
 }
 
+async function fetchArbeitnow() {
+  try {
+    const res = await fetch("https://www.arbeitnow.com/api/job-board-api", {
+      headers: { "User-Agent": UA },
+    });
+    if (!res.ok) throw new Error(`Arbeitnow HTTP ${res.status}`);
+    const data = await res.json();
+    return (data.data || [])
+      .filter((j) => j.remote)
+      .map((j) => ({
+        id: `arbeitnow-${j.slug}`,
+        source: "Arbeitnow",
+        sourceUrl: "https://arbeitnow.com",
+        title: j.title,
+        company: j.company_name || "Empresa remota",
+        tags: [...(j.tags || []), ...(j.job_types || [])],
+        location: j.location || "Worldwide",
+        applyUrl: j.url,
+        description: stripHtml(j.description || "").slice(0, 600),
+        postedAt: j.created_at
+          ? new Date(j.created_at * 1000).toISOString()
+          : new Date().toISOString(),
+      }));
+  } catch (err) {
+    console.error("Arbeitnow fetch failed:", err.message);
+    return [];
+  }
+}
+
 async function fetchHimalayas() {
   try {
     const res = await fetch("https://himalayas.app/jobs/api?limit=100", {
@@ -153,14 +182,15 @@ function categorize(job) {
 }
 
 async function main() {
-  const [remoteok, jobicy, himalayas, featured] = await Promise.all([
+  const [remoteok, jobicy, himalayas, arbeitnow, featured] = await Promise.all([
     fetchRemoteOK(),
     fetchJobicy(),
     fetchHimalayas(),
+    fetchArbeitnow(),
     fetchFeaturedFromStripe(),
   ]);
 
-  const all = [...featured, ...remoteok, ...jobicy, ...himalayas]
+  const all = [...featured, ...remoteok, ...jobicy, ...himalayas, ...arbeitnow]
     .filter((j) => j.title && j.applyUrl)
     .map((j) => ({
       featured: false,
